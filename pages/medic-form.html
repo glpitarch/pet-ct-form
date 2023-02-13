@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Planilla PET-CT médicos</title>
+</head>
+<body>
+    <!----------///_NAVIGATOR BAR_///---------->
+    <nav id="navigatorBar">
+        <ul>
+            <li><a href="./../index.html" id="technologistForm" class="buttons-navbar">Planilla técnicos</a></li>
+            <li><a href="./medic-form.html" id="medicForm" class="buttons-navbar">Planilla médicos</a></li>
+            <li><a href="" id="printer"><img src="./../images/printer.png" alt="Icono de impresora"></a></li>
+            <li><a href="" id="saveValues" class="buttons-navbar">Guardar datos</a></li>
+            <li><a href="" id="removeKeys" class="buttons-navbar">Borrar datos</a></li>
+        </ul>
+    </nav>
+    <!----------///_RADIOTRACER SELECTOR, HOSPITALIZED AND BETA BLOCKER_///---------->
+    <main>
+        <section>
+            <div class="r-flex-div">
+                <div>
+                    <form>
+                        <label>Estudio con </label>
+                            <select id="studies" class="required-borders borderless">
+                                <option value="study-1">FDG</option>
+                                <option value="study-2-1">Colina (Próstata)</option>
+                                <option value="study-2-2">Colina (HPT)</option>
+                                <option value="study-3-1">Dopa</option>
+                                <option value="study-3-2">Dopa (HIC)</option>
+                                <option value="study-4">Galio</option>
+                                <option value="study-5">PSMA</option>
+                                <option value="study-6">Protocolo CT</option>
+                                <option value="study-7">Protocolo PET-CT</option>
+                            </select>
+                    </form>
+                </div>
+                <div class="c-flex-div pr-bottom-table-2">
+                    <div>
+                        <form>
+                            <label><button id="hospitalized">Internado</button></label>
+                                <select id="hospitalizedValues" class="required-borders borderless">
+                                    <option value="NO">NO</option>
+                                    <option value="SI">SI</option>
+                                </select>
+                        </form>
+                    </div>
+                    <div id="hospitalizedInfo" class="hide">
+                        <div class="hide">
+                            <p>Donde: <span id="dom-input-16"><input id="input-16" type="text" class="required-borders medium-input"></span></p>
+                        </div>
+                        <div class="hide">Tel. Ambulancia:</div>   
+                    </div>             
+                </div>
+            </div>
+        </section>
+        <section>
+            <!----------///_TITLE_///---------->
+            <div id="formTitle" class="title"><h1>PET-CT</h1></div>
+            <!----------///_SCHEDULE_///---------->
+            <div class="schedule">
+                <p>Turno: <span id="dom-input-1"><input id="input-1" type="text" class="required-borders small-input"></span>hs</p>
+                <p>Citado: <span id="dom-input-2"><input id="input-2" type="text" class="required-borders small-input"></span>hs</p>
+                <p>Horario de llegada:</p>
+            </div>
+        </section>
+        <!----------///_UPPER TABLE_///---------->
+        <section>
+            <table class="medic-form-upper-table">
+                <tr>
+                    <td width="40%" class="py-s">Apellido y Nombre: <span id="dom-input-3"><input id="input-3" type="text" class="required-borders xl-input"></span></td>
+                    <td width="30%" class="py-s">DNI: <span id="dom-input-8"><input id="input-8" type="text" class="required-borders large-input"></span></td>
+                    <td width="30%" class="py-s">Fecha: <span id="dom-input-4"><input id="input-4" type="text" class="required-borders large-input"></span></td>
+                </tr>
+                <tr>
+                    <td class="py-s">O.S.: <span id="dom-input-5"><input id="input-5" type="text" class="required-borders large-input"></span></td>
+                    <td class="py-s">Afiliado N°: <span id="dom-input-7"><input id="input-7" type="text" class="required-borders medium-input"></span></td>
+                    <td class="py-s">H.C.: <span id="dom-input-6"><input id="input-6" type="text" class="required-borders large-input"></span></td>
+                </tr>
+            </table>
+        </section>
+        <!----------///_BOTTOM TABLE_///---------->
+        <section class="mb-xxl">
+            <table class="bottom-table-medic-form">
+                <tr>
+                    <td width="40%" class="py-s">Peso: <span id="dom-input-9"><input id="input-9" type="text" class="required-borders xs-input"></span> Kg</td>
+                    <td width="38%" class="py-s">Altura: <span id="dom-input-10"><input id="input-10" type="text" class="required-borders small-input"></span> m</td>
+                    <td width="22%" class="py-s">Edad: <span id="dom-input-11"><input id="input-11" type="text" class="required-borders xs-input"></span> años</td>
+                </tr>
+                <tr class="interSectionsSeparationLines">
+                    <td class="py-s">Hora de inyección:</td>
+                    <td class="py-s">Hora de imagen:</td>
+                    <td class="py-s"></td>
+                </tr>
+                <tr>
+                    <td id="optimalActivityDom" class="hide py-s">Actividad óptima: </td>
+                </tr>
+                <tr>
+                    <td class="hide py-s"></td>
+                    <td class="py-s">Sitio de inyección:</td>
+                    <td class="py-s">Actividad inyectada:</td>
+                </tr>      
+                <tr class="interSectionsSeparationLines">
+                    <td class="py-s">                        
+                        <form>
+                            <label> PET previo:</label>
+                                <select id="input-12" class="required-borders borderless">
+                                    <option value=""></option>
+                                    <option value="no">NO</option>
+                                    <option value="yes">SI</option>
+                                </select>
+                        </form></td>
+                    <td class="py-s">Donde: <span id="dom-input-13"><input id="input-13" type="text" class="required-borders medium-input"></span></td>
+                    <td class="py-s">Fecha: <span id="dom-input-14"><input id="input-14" type="text" class="required-borders medium-input"></span></td>
+                </tr>
+                <tr class="interSectionsSeparationLines">
+                    <td class="py-s">                    
+                        <form>
+                            <label>Diabetes:</label>
+                                <select id="input-15" class="required-borders borderless">
+                                    <option value=""></option>
+                                    <option value="NO">NO</option>
+                                    <option value="SI">SI</option>
+                                </select>
+                        </form></td>
+                    <td class="py-s">Glucemia:</td>
+                    <td id="massIndexDom" class="py-s">IMC: </td>
+                </tr>
+                <tr id="massIndexDomButtonContainer">
+                    <td class="upper-case"></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+            <h3 class="py-s">DIAGNÓSTICO</h3>
+            <div id="reasonForTheStudy" class="sectionsSeparationLines">
+                <h4>Motivo del pedido:</h4>           
+                <div class="r-flex-div">
+                    <div class="c-flex-div">
+                        <ul>
+                            <li>Evaluación <input type="checkbox"></li>
+                            <li>Valoración de respuesta al tratamiento <input type="checkbox"></li>
+                        </ul>
+                    </div>
+                    <div class="c-flex-div">
+                        <ul>
+                            <li>Estadificación <input type="checkbox"></li>
+                            <li>Re-Estadificación <input type="checkbox"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="biopsy">
+                <p>Fecha y sitio de biopsia:</p>
+                <p>Anatomía patológica:</p>
+            </div>
+            <div id="tumorMarkersContainer">
+                <div id="firstTumorMarkersDiv">
+                    <ul>
+                        <li>CEA:</li>
+                        <li>CA 19-9:</li>
+                        <li>CA 125:</li>
+                    </ul>
+                </div>
+                <div id="secondTumorMarkersDiv">
+                    <ul>
+                        <li>CA 15-3:</li>
+                        <li>PSA:</li>
+                        <li>otros:</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="medicalTreatments">
+                <h4>Tratamiento para la patología en estudio:</h4>           
+                <div class="r-flex-div">
+                    <div class="c-flex-div">
+                        <ul class="pb-xxl">
+                            <li class="pt-s pb-l">QUIRÚRGICO (fecha/sitio):</li>
+                            <li class="py-xl">QUIMIOTERÁPICO (Nro. de ciclos/drogas/fecha de último ciclo):</li>
+                            <li class="py-xl">RADIOTERÁPICO (Área de tto. y fecha de finalización):</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!----------///_SECOND PAGE_///---------->
+        <section>
+            <!----------///_PERSONAL HISTORY_///---------->
+            <div id="personalHistory">
+                <div class="container-2">
+                    <h4>Antecedentes personales</h4>
+                </div>           
+                <div class="r-flex-div BigMarginRight">
+                    <div class="c-flex-div">
+                        <ul>
+                            <li>ANTIBIÓTICOS:</li>
+                            <li class="py-xl">LACTANCIA:</li>
+                        </ul>
+                    </div>
+                    <div class="c-flex-div">
+                        <ul>
+                            <li>TABAQUISMO:</li>
+                            <li class="py-xl">ALERGIAS:</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="diseaseHistory">
+                <div>
+                    <h4 class="mb-m">Antecedentes de enfermedades</h4>         
+                    <div class="r-flex-div">
+                        <div class="c-flex-div">
+                            <ul class="pb-xxl">
+                                <li class="pt-s pb-xl mb-xl">PROCESOS INFLAMATORIOS /INFECCIOSOS EN LOS ÚLTIMOS TRES MESES (Especificar/Tto realizado):</li>
+                                <li class="py-xl my-xl">TRAUMATISMOS EN LOS ÚLTIMOS TRES MESES (localización y fecha):</li>
+                                <li class="py-xl">OTROS:</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="r-flex-div sectionsSeparationLines py-xl">
+                    <div class="c-flex-div">
+                        <ul>
+                            <li class="pb-xxl">TIROIDES:</li>
+                            <li class="pb-xxl">DIABETES:</li>
+                            <li class="pb-xxl">CARDIOVASCULAR:</li>
+                            <li class="pb-xxl">RESPIRATORIO:</li>
+                            <li>URINARIO:</li>
+                        </ul>
+                    </div>
+                    <div class="c-flex-div BigMarginRight">
+                        <ul>
+                            <li class="pb-xxl">DIGESTIVO:</li>
+                            <li class="pb-xxl">GINECOLÓGICO:</li>
+                            <li class="pb-xxl">ONCOLÓGICO:</li>
+                            <li class="pb-xxl">QUIRÚRGICOS:</li>
+                            <li>OTROS:</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!----------///_LINKS TO JS_///---------->
+    <script src="../js/functions.js"></script>
+    <script src="../js/index.js"></script>
+</body>
+</html>

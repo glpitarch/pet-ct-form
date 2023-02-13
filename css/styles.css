@@ -1,0 +1,299 @@
+/*----------///_RESET_///----------*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+/*----------///_BODY_///----------*/
+body {
+    margin: 1rem;
+    font-family: Arial;
+}
+/*----------///_NAVIGATOR BAR_///----------*/
+nav {
+    border-style: solid;
+    background-color: black;
+    margin-bottom: 3rem;
+}
+.buttons-navbar {
+    background-color: black;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: large;
+}
+.buttons-navbar:hover {
+    border-top: none;
+    border-right: none;
+    border-bottom: solid;
+    border-left: none;
+    padding-bottom: 1rem;
+}
+/*----------///_TITLE_///----------*/
+.title {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+/*----------///_REMOVE BORDERS_///----------*/
+.borderless {
+    border-style: none;
+}
+/*----------///_SCHEDULE_///----------*/
+.schedule {
+    display: flex;
+    justify-content: space-around;
+}
+/*----------///_HIDE_///----------*/
+.hide {
+    display: none
+}
+/*----------///_INPUTS_///----------*/
+input[type="text"] {
+    font-weight: bold;
+    font-size: 15px;
+}
+/*----------_Extra Large Inputs_----------*/
+.xl-input {
+    width: 18rem;
+}
+/*----------_Large Inputs_----------*/
+.large-input {
+    width: 8rem;
+}
+/*----------_Medium Inputs_----------*/
+.medium-input {
+    width: 5rem;
+}
+/*----------_Small Inputs_----------*/
+.small-input {
+    width: 3rem;
+}
+/*----------_Extra Small Inputs_----------*/
+.xs-input {
+    width: 1.6rem;
+}
+/*----------_Input Borders_----------*/
+.required-borders {
+    border-style: solid;
+    border: 0.5rem 0.5rem;
+    border-width: 0.2rem;
+    border-color: red;
+}
+/*----------///_SEPARATION LINE_///----------*/
+.sectionsSeparationLines {
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+}
+.interSectionsSeparationLines {
+    border-style: solid;
+    border-width: 0.1rem;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    max-width: max-content;
+}
+/*----------///_TECHNOLOGIST TABLE_///----------*/
+/*----------_Table Border_----------*/
+table {
+    border-collapse: collapse;
+}
+/*----------_Upper Table_----------*/
+.upper-table {
+    text-align: left;
+    width: 100%;
+    margin-top: 0.5rem;
+}
+/*----------_Bottom Table_----------*/
+.bottom-table {
+    text-align: left;
+    width: 100%;
+    margin-top: 2rem;
+}
+/*----------///_BUTTONS_///----------*/
+.resized-button {
+    font-size: 1rem;
+    border-style: solid;
+    border-color: red;
+    padding: 0.5rem;
+    color: red;
+}
+/*----------///_INPUTS_///----------*/
+nav ul {
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+nav ul li {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    align-self: center;
+    font-size: larger;
+}
+/*----------///_RADIOTRACER SELECTOR, HOSPITALIZED AND BETA BLOCKER_///----------*/
+.r-flex-div {
+    display: flex;
+    justify-content: space-between;
+}
+.c-flex-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#hospitalized {
+    background-color: white;
+    font-size: medium;
+}
+/*----------///_IMAGES ACQUISITION_///----------*/
+#lastTechnologistDiv {
+    display: flex;
+    justify-content: right;
+}
+#lastTechnologistDiv ul li {
+    padding-bottom: 0.8rem;
+}
+h4 {
+    padding-top: 0.5rem;
+    text-align: center;
+}
+/*----------///_MEDIC FORM_///----------*/
+.upper-case {
+    text-transform: uppercase;
+    font-size: larger;
+    font-weight: bold;
+}
+/*----------_Bottom Table_----------*/
+.bottom-table-medic-form {
+    text-align: left;
+    width: 100%;
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+    margin-top: 2rem;
+}
+#biopsy p {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+#tumorMarkersContainer {
+    display: flex;
+    justify-content: space-between;
+}
+#tumorMarkersContainer ul li {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+#firstTumorMarkersDiv {
+    display: flex;
+    flex-direction: column;
+}
+#firstTumorMarkersDiv ul li {
+    padding: 0.5rem;
+}
+#secondTumorMarkersDiv {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10rem;
+}
+#secondTumorMarkersDiv ul li {
+    padding: 0.5rem;
+}
+.pl-bottom-table {
+    padding-left: 5rem;
+}
+.pr-bottom-table-1 {
+    padding-right: 5rem;
+}
+.pr-bottom-table-2 {
+    padding-right: 2.5rem;
+}
+/*----------///_MEDIC TABLE_///----------*/
+.medic-form-upper-table {
+    text-align: left;
+    width: 100%;
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+    margin-top: 0.5rem;
+}
+#medicalTreatments {
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+}
+#personalHistory {
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+}
+#reasonForTheStudy ul li {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+/*----------///_SECOND MEDIC PAGE_///----------*/
+.container-2 {
+    padding-bottom: 10rem;
+}
+.BigMarginRight {
+    margin-right: 10rem;
+}
+/*----------///_SPACINGS_///----------*/
+/*----------///_Padding Top_///----------*/
+.pt-s {
+    padding-top: 0.5rem;
+}
+.pt-m {
+    padding-top: 1rem;
+}
+/*----------///_Padding Bottom_///----------*/
+.pb-s {
+    padding-bottom: 0.5rem;
+}
+.pb-m {
+    padding-bottom: 1rem;
+}
+.pb-l {
+    padding-bottom: 1.5rem;
+}
+.pb-xl {
+    padding-bottom: 2rem;
+}
+.pb-xxl {
+    padding-bottom: 2.5rem;
+}
+/*----------///_Padding Top && Bottom_///----------*/
+.py-s {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.py-m {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.py-l {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.py-xl {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+/*----------///_MARGINS_///----------*/
+/*----------///_Margin Bottom_///----------*/
+.mb-m {
+    margin-bottom: 1rem;
+}
+.mb-xl {
+    margin-bottom: 2rem;
+}
+.mb-xxl {
+    margin-bottom: 2.5rem;
+}
+/*----------///_Margin Top && Bottom_///----------*/
+.my-xl {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
