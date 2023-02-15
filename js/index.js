@@ -6,7 +6,7 @@ const selectedInputs = ["hospitalizedValues","input-12","input-15"]
 const allInputs = [...typedInputs, ...selectedInputs]
 
 //----------///_TECHNOLOGIST OR MEDIC FORM?_///----------//
-var whatPageAmIOn = document.getElementById("input-5")
+let whatPageAmIOn = document.getElementById("input-5")
 if (whatPageAmIOn.classList.contains("required-borders")) {
     localStorage.setItem("onMedicForm", "true");
 } else (localStorage.setItem("onMedicForm", "false"))
