@@ -40,7 +40,7 @@ El resultado es una mejora estética en relación a los antiguos formularios uti
 ## Imágenes del nuevo formulario
 <p align="center">
     ### Formulario técnico
-    <img> src="https://user-images.githubusercontent.com/104110115/219230270-dae8fe19-31f8-4a23-806d-9fd60f1e8f17.png"
+    <img src="https://user-images.githubusercontent.com/104110115/219230270-dae8fe19-31f8-4a23-806d-9fd60f1e8f17.png">
 
     ### Formulario médico
     <img> ![medic-form-page-1](https://user-images.githubusercontent.com/104110115/219230326-54d15887-cf33-4413-8dd1-f6d759941bed.png)
