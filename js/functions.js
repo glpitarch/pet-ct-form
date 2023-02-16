@@ -9,7 +9,7 @@ const cleaner = () => {
             arrayElement.classList.add("borderless");
         }   
     }
-    document.getElementById("navigatorBar").classList.add("hide");
+    document.getElementById("navigationBar").classList.add("hide");
     document.getElementById("studies").classList.remove("required-borders");
     document.getElementById("studies").classList.add("borderless");
     document.getElementById("hospitalizedValues").classList.remove("required-borders")
@@ -39,7 +39,7 @@ const calculateMassIndex = () => {
     } 
     else if (medicForm == "false" && result <= 25 && yearsOld <= 50 && selectValue === "study-1") {
         document.getElementById("betaBlocker").classList.remove("hiden")
-        document.getElementById("betaBlocker").classList.add("h-flex-div")
+        document.getElementById("betaBlocker").classList.add("r-flex-div")
         return document.getElementById("massIndexDom").innerHTML = "IMC: " + Math.round((result + Number.EPSILON) * 100) / 100    
     }  
     else if (weight == "" || height == "") {
@@ -90,10 +90,10 @@ const isHospitalized = () => {
     let optionValue = document.getElementById("hospitalizedValues").value
     if (optionValue === "SI") {
         document.getElementById("hospitalizedInfo").classList.remove("hide")
-        document.getElementById("hospitalizedInfo").classList.add("v-flex-div")
+        document.getElementById("hospitalizedInfo").classList.add("c-flex-div")
     }
     else {
-        document.getElementById("hospitalizedInfo").classList.remove("v-flex-div")
+        document.getElementById("hospitalizedInfo").classList.remove("c-flex-div")
         document.getElementById("hospitalizedInfo").classList.add("hide")
     }
 }
