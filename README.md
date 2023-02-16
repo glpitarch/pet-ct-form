@@ -35,17 +35,14 @@ El resultado es una mejora estética en relación a los antiguos formularios uti
 
 --> De ser necesaria la impresión de una única planilla, por ejemplo la planilla médica, y el personal que ingresa los datos los realizó en la planilla técnica por error, puede guardar los datos velozmente mediante la opción "guardar datos" dentro del navbar y luego dirigirse a la planilla médica para finalizar el proceso. De esta forma se evita la ejecución del "window.print", mejorando la velocidad en el guardado de datos.
 
+## Imágenes del antiguo formulario
+
+## Imágenes del nuevo formulario
 <p align="center">
-     ## Imágenes del antiguo formulario
+    ### Formulario técnico
+    <img> src="https://user-images.githubusercontent.com/104110115/219230270-dae8fe19-31f8-4a23-806d-9fd60f1e8f17.png"
 
-
-
-     ## Imágenes del nuevo formulario
-
-     ### Formulario técnico
-     ![technologist-form](https://user-images.githubusercontent.com/104110115/219230270-dae8fe19-31f8-4a23-806d-9fd60f1e8f17.png)
-
-     ### Formulario médico
-     ![medic-form-page-1](https://user-images.githubusercontent.com/104110115/219230326-54d15887-cf33-4413-8dd1-f6d759941bed.png)
-     ![medic-form-page-2](https://user-images.githubusercontent.com/104110115/219230328-00234807-6419-413d-b385-ff4c8f8931bd.png)
+    ### Formulario médico
+    <img> ![medic-form-page-1](https://user-images.githubusercontent.com/104110115/219230326-54d15887-cf33-4413-8dd1-f6d759941bed.png)
+    <img> ![medic-form-page-2](https://user-images.githubusercontent.com/104110115/219230328-00234807-6419-413d-b385-ff4c8f8931bd.png)
 </p>
