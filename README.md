@@ -43,6 +43,6 @@ El resultado es una mejora estética en relación a los antiguos formularios uti
     <img src="https://user-images.githubusercontent.com/104110115/219230270-dae8fe19-31f8-4a23-806d-9fd60f1e8f17.png">
 
     ### Formulario médico
-    <img> ![medic-form-page-1](https://user-images.githubusercontent.com/104110115/219230326-54d15887-cf33-4413-8dd1-f6d759941bed.png)
-    <img> ![medic-form-page-2](https://user-images.githubusercontent.com/104110115/219230328-00234807-6419-413d-b385-ff4c8f8931bd.png)
+    <img src="https://user-images.githubusercontent.com/104110115/219230326-54d15887-cf33-4413-8dd1-f6d759941bed.png">
+    <img src="https://user-images.githubusercontent.com/104110115/219230328-00234807-6419-413d-b385-ff4c8f8931bd.png">
 </p>
