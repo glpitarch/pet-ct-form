@@ -7,11 +7,11 @@ El resultado es una mejora estética en relación a los antiguos formularios uti
 
 ## Brief
 
---> Aquella persona que inicia el archivo "index.html" comienza en 1 de las 2 páginas disponibles, destinada al apartado técnico y médico, respectivamente.
+➤ Aquella persona que inicia el archivo "index.html" comienza en 1 de las 2 páginas disponibles, destinada al apartado técnico y médico, respectivamente.
 
---> Todos los datos que deberían ser ingresados se encuentran entre bordes rojos.
+➤ Todos los datos que deberían ser ingresados se encuentran entre bordes rojos.
 
---> La barra de navegación se encuentra compuesta de la siguiente forma:
+➤ La barra de navegación se encuentra compuesta de la siguiente forma:
 
      1. Navigation Bar:
       1.1. Planilla Técnicos
@@ -29,11 +29,11 @@ El resultado es una mejora estética en relación a los antiguos formularios uti
       1.5. Borrar datos
         1.5.1 Elimina los pares key/values del local storage
         
---> Luego del ingreso de datos del paciente y estudio a realizar en el formulario técnico se procede a clickear el icono de la impresora. Este ícono ejecuta todo lo necesario para guardar los datos ingresados (local storage) y volcarlos en la página que no se está visualizando, elimina todos los bordes rojos de los inputs y realiza distintos cálculos (anteriormente, estos calculos debían realizarse manualmente por el personal técnico).
+➤ Luego del ingreso de datos del paciente y estudio a realizar en el formulario técnico se procede a clickear el icono de la impresora. Este ícono ejecuta todo lo necesario para guardar los datos ingresados (local storage) y volcarlos en la página que no se está visualizando, elimina todos los bordes rojos de los inputs y realiza distintos cálculos (anteriormente, estos calculos debían realizarse manualmente por el personal técnico).
 
---> Posteriormente, se debe dirigir al formulario médico y completar solamente 2 nuevos inputs que no se visualizan en el formulario técnico. Clickear el ícono de la impresora nuevamente para la impresión del formulario médico y concluir con la totalidad del proceso de creación de ambos formularios de 1 paciente.
+➤ Posteriormente, se debe dirigir al formulario médico y completar solamente 2 nuevos inputs que no se visualizan en el formulario técnico. Clickear el ícono de la impresora nuevamente para la impresión del formulario médico y concluir con la totalidad del proceso de creación de ambos formularios de 1 paciente.
 
---> De ser necesaria la impresión de una única planilla, por ejemplo la planilla médica, y el personal que ingresa los datos los realizó en la planilla técnica por error, puede guardar los datos velozmente mediante la opción "guardar datos" dentro del navbar y luego dirigirse a la planilla médica para finalizar el proceso. De esta forma se evita la ejecución del "window.print", mejorando la velocidad en el guardado de datos.
+➤ De ser necesaria la impresión de una única planilla, por ejemplo la planilla médica, y el personal que ingresa los datos los realizó en la planilla técnica por error, puede guardar los datos velozmente mediante la opción "guardar datos" dentro del navbar y luego dirigirse a la planilla médica para finalizar el proceso. De esta forma se evita la ejecución del "window.print", mejorando la velocidad en el guardado de datos.
 
 ## Imágenes del antiguo formulario
 
